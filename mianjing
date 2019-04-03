@@ -38,3 +38,23 @@ String[] roman = {"M","D","C","L","X","V","I"}它俩是对应的，这样就不�
 一道题：给一个2D矩阵，1代表云，0代表天空，计算有多少朵云，
 云和云之间只能横向或纵向相连，用union find做了。
 后面问why Bloomberg，然后给我问问题的时间。
+
+
+昨天面完Bloomberg电面，一共45 min左右开始先问了项目，讲一讲自己觉得简历上最有趣的项目，问了一些项目的算法细节，然后开始做题
+第一题 Two Sum, follow up Three Sum. 当时听到题目描述惊呆了，居然还会问 Two Sum. 
+面试官会仔细问有几种做法，相对应的time complexity and space complexity是多少以及为什么 
+第二题是利口妖妖期，写完代码后也会仔细问时间空间复杂度 117. Populating Next Right Pointers in Each Node II
+
+
+1. anagram原题 
+2. 给一个中间小两边大的数组 像这样[5, 4, 2, 0, -1, 3, 4] 找出转折点 O(logn)时间复杂度限制 两次二分
+
+
+
+10分钟前刚面完的。。50分钟
+听口音是个白人大叔，在bb工作了5年了
+bq：介绍自己，介绍一个最想和他说的项目经历，因为lz说的机器学习他说不是特别懂所以没有很深入的问问题
+coding：. check 1point3acres for more.
+1. 一大坨文字吓傻我了而且还是我没见过的词叫什么non-degeneracy triangle。。最后讨论之后才知道原来就是给a,b,c三个list，然后看a[i]b[i]c[i]能不能组成合法的三角形。。。
+2. 给一个起始坐标 一个终止坐标，下一个可能到达的点是（x+y，y）和（x，x+y）。问能不能到达终点。一看就知道是bfs/dfs。写出来了但是有一些cases timeout，然后经过提示才明白要check两种corner cases。check完就过了
+第二题卡在timeout卡了10几分钟要了hint才反应过来估计是悬了。
