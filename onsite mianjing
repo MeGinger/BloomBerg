@@ -33,3 +33,26 @@ why bb
 
 有个function 叫unreliableJump()，90%的成功率使得机器人向上，10%的失败率，机器人会向下跳一格
 他希望我写一个function叫Jump去保证100%的向上的成功率
+
+
+1. if there is a path sum to target
+   判断是否存在path from root to any node that sums to the target value
+挺简单的 用recursive 太紧张上来被自己绕进去了 两人一直在提醒 不过我一直在自己思考没听他们说的
+过了一会就说明白了 然后也没让写code
+2. 原题 deep copy linkedlist with random pointer
+
+第二轮 ABC 和中东大哥
+感觉这个ABC一直在为难我 问了很多bq 问到why software engineer的时候 答的不是很好
+出了一个System design。。。 类似google calendar
+包括设计database tables
+不过问的每个问题都答出来了 前端部分用angular回答的 感觉他不会angular 
+我觉得表现比第一轮好 
+不明白的是结束后被walk out。。
+
+
+第一轮：
+1，find first unique character， set+ linkedhashmap
+2，面经题， subway system， two level hashmap
+第二轮：
+1， candy crash
+2， 忘了。。
