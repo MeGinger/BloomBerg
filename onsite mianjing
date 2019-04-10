@@ -56,3 +56,47 @@ why bb
 第二轮：
 1， candy crash
 2， 忘了。。
+
+
+然后问了 copy random list, 他说，我知道你可能见过这题 然后 emmmmm 我的确写过 然鹅 我当时没有看time O(1), Space O(1)的最优解
+当时想出来的不是他想的解法，回来看了一下，他想要的解法就是官方solution里的
+
+
+
+店面：白人姐姐。
+就一道题：一个字符串“cat dog lion\0\0\0\0"，把它转换成"cat%20dog%20lion"，FollowUp要求in place操作
+输入保证\0的数目是空格的两倍
+
+第一轮两位面试官，白人男和国人男. check 1point3acres for more.
+第1题：刷题网站 叁实叁-baidu 1point3acres --33. Search in Rotated Sorted Array
+（面试前一晚12:30做的题目，10小时之后就考了，有史以来首次押题成功！）
+第2题：有一个带括号的字符串，要求去掉最少的括号，使表达式有效，比如“)((abcd))((” -> ”((abcd))"，输出结果string。
+Follow Up要求in place操作且O(1) space （这题出得真损）
+
+第二轮只有一位国人男
+第1题：二叉树所有node按从左至右，从上到下的优先级排序。
+刚开始的时候，面试官让我举几个case，他给结果，让我猜这是什么二叉树排序，讨论了5-10分钟没想到。。。
+我先给了一个nlogn的解法，面试官要求我优化到O(n). 1point3acres
+第2题：面经题，一个地铁有人刷卡上下车，求任意两站平均通勤时间，实现in(), out()和get_average()三个函数
+
+
+
+第一轮最低公共祖先，BST很快写出来了，然后问非BST，提出了一个exponential的方法，优化的时候卡了一会，后来想起来DP记录每个leaf node的路径。
+第二轮第一题给一个很多人去两个城市的机票费用，求每个城市去一半的人的最便宜机票组合。第二题有很多股票交易数据，有insert和topK两个API，
+设计存储结构。根据两个函数被调用的频率讨论了不同的设计。
+两个人出去一会给我远程连接了纽约的HR，问我怎么对SE感兴趣，我老板会怎么评价我（有点和缺点），期望薪水等等。全程hr在打哈欠，
+只有问薪水的时候精神了，我就在现有的package上加了些告诉他。
+第四轮manager，给我一个情景设计题，开始以为考我数学，后来一步一步加难看我怎么解释。应该是考交流和解决问题能力。
+
+
+
+1轮：国人小哥印度姐姐 印度姐姐还打翻了一整杯水在我裤子上。。。。
+第一题copy random linked list
+第二题，一个二维棋盘，求左上角走到右下角一共有多少条路径，只能向右或向下，当中有一些格子是障碍物不能走： 简单二维dp
+2轮：白人大哥印度姐姐 白人大哥全程面色不善。。
+第一题设计几个关于地铁站的api，最后每个api写完都是O（1）的
+i. checkin(user ID, timestamp, subway station)
+ii. checkout(user ID, timestamp, subway station)
+iii. computeAverageCommuteTime(subway station 1, subway station 2)
+求地铁站1和地铁站2之间的平均交通时间
+第二题给两个长度一样的字符串，对一个string最少改变多少个character，能使这两个string成为anagram： 简单的hashmap解决？
