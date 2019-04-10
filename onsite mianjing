@@ -100,3 +100,36 @@ ii. checkout(user ID, timestamp, subway station)
 iii. computeAverageCommuteTime(subway station 1, subway station 2)
 求地铁站1和地铁站2之间的平均交通时间
 第二题给两个长度一样的字符串，对一个string最少改变多少个character，能使这两个string成为anagram： 简单的hashmap解决？
+
+
+
+前两轮技术面。大概前十分钟是对简历的实习经历和项目提问，但问得都不深。
+每轮两道题，都是tag的高频前五十道，或者稍微有点变化。
+设计题因为时间不多，没有写代码，白纸上写了思路。
+
+之前听说地里的反馈说第一轮面不好第二轮就只会有一个面试官，我第二轮只有一个面试官。面完想着要被领出去了，结果叫我先等着，HR 会来。
+第三轮常规 HR 面。why BB，为什么转专业，介绍一个项目，实习期间同事的反馈，有没有return offer，有没有其他 offer 和面试...
+第四轮 Manager 面，展示了 terminal，让介绍一个项目，问了 C++, C#, python 内存管理上的区别... . From 1point 3acres bbs
+一些建议：
+1. 面试如果遇到面试官只有一个也不要放弃啊，并不一定是没有面好。
+2. 如果是自带mac去，记得带连接屏幕的转换器啊，我用会议室的键盘，看着大屏幕敲了两轮... . From 1point 3acres bbs
+3. 早上吃好一点，我太紧张了，lunch box 都没有碰... 10:30 am到，四轮面完大概 3 pm
+3. 题目不难，从解题到写代码都要注意多跟面试官交流，之前看地里的经验说面试官只想看到自己准备的解法，不过基本上面试官听了我第一个解法就让我写了。
+
+
+
+之前一个bb面筋，2轮游
+1. 写个自动sorted的linked list， 然后优化。 第二题是ny和la分配面试人然后总额最便宜那道题-baidu 1point3acres
+2. 很简单大概就是bst的一系列问题和性质
+
+
+1. 经典面经，飞机路线是否存在。给一些  [JFK, LAX], [LAX, SAN] 问是否存在路线，是双向的。 follow up 问怎么输出路线。 一堆bq
+2. 一道面经tag的midium题，记不太清了，很经典，一般都会。 然后 OOD 是设计 LRU。 一堆bq
+
+
+给一个只有0和1的数组，问0的个数不能超过 m 个，1的个数不能超过 n个的最长 sub sequence长度. 1point3acres
+
+第二轮：
+一个呆了九年的白人，还有一个两年的中国人。。
+也是先问实习项目，然后每人出了一题，一个是给一个 root 和 两个 treenode a & b, 问 a 与 b 是不是 cousin。。
+cousin 的定义是：他们在同一层里。。但是 parent 不相同。。
