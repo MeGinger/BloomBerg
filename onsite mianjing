@@ -133,3 +133,19 @@ iii. computeAverageCommuteTime(subway station 1, subway station 2)
 一个呆了九年的白人，还有一个两年的中国人。。
 也是先问实习项目，然后每人出了一题，一个是给一个 root 和 两个 treenode a & b, 问 a 与 b 是不是 cousin。。
 cousin 的定义是：他们在同一层里。。但是 parent 不相同。。
+
+
+给一个Tic Tac Toe的3x3棋盘，设计两个function，void move(int r, int c)表示下一步棋在r, c，pair<int,int> getMove(int n)返回第n步走在哪个格子里。LZ说这样的话在move里用vector pushback就行了。
+老哥：可以，但是memory用的有点多。
+LZ：那可以把行列编成一个数字=3r+c这样vector<int>就可以了。
+老哥：can you do better？
+LZ：那既然只存0-8，那就用char吧。。。
+老哥：can you do better？
+此时lz处于崩溃边缘，绝望之中想起了可能是想考察bit manipulation
+LZ：8需要4bit剩下的0-7只需要3个，这样28bit你看成吗，一个int就放下了。。。
+老哥：点头微笑）我看行，implement 一下吧。。。
+后面具体过程略过，最后问了一些基础stack vs heap，thread vs process，what is merge sort，quick sort how to select pivot。。。也不知道有没有准备第二题时间就到了。。。
+第二轮看到了熟悉的国人面孔，感觉一下子从之前的低落情绪中解放出来了。小哥也问了下简历，题目是给一二叉树，求单一值的最大子树大小，用递归秒了之后小哥说还有不少时间，那就问个OOD吧。总之这个环节就多交流想法就行了，没什么难点。
+小哥走的时候也没说有没有下一轮，本以为两轮游到此结束，可以滚去机场了，可是小哥说等下我去问下hr来不来。。心想难不成第一轮的feedback还不错？
+第三轮就是标准的HR面，why bb most difficult challenge。
+第四轮来了个在bb 11年的senior manager，聊了下lz的硕士论文，抠了些细节等等。没有coding就问了一个普通的在 set of interval 中查找的问题，问了下如果query次数多但set不变如何优化，答cache。。。
