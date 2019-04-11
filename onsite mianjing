@@ -151,3 +151,21 @@ LZ：8需要4bit剩下的0-7只需要3个，这样28bit你看成吗，一个int�
 第四轮来了个在bb 11年的senior manager，聊了下lz的硕士论文，抠了些细节等等。没有coding就问了一个普通的在 set of interval 中查找的问题，问了下如果query次数多但set不变如何优化，答cache。。。
 
 HR一开始介绍了一下onboarding process，才知道bb的training居然有3个月之长，然后就是why bb, what are you looking for in your next job, describe most passionate past project, 还有一个other than salary, what factors play a role in deciding where to work 想起来再补充
+
+
+一个白人小哥，一个一句话没说的猜测是国人小哥~~两个人都很年轻，白人小哥工作一年在bb， 非常Nice，出题循循善诱，很好
+1. 给一个string "bloomberg"，和一个special char 'b', 写一个函数get_distance(), 返回每一个字符到特殊字符的距离 [0,1,2,2,1,0,1,2,3]。 类似于雷口 四儿。 . check 1point3acres for more.
+最开始我给出用set save all index of the b, 然后遍历string找每个字符最近的b的index。 时间复杂度是：O(n*k), k is the number of the special. . 1point3acres
+然后小哥说不用set， 我一时间想不起来，知道跟蓄水那个很像但是不晓得怎么遍历，还是自己水平太有限，这时候小哥说把题目换一下，只找b右边的元素的距离, [0,1,2,3,0,1,2,3]，
+写完code，然后解决最开始的问题。 此时我终于知道遍历两次就可以了。
+2. 第二题，输入n对起点和终点， 设计数据结构存起来，然后给一个起点和终点，返回所有的路径。
+讨论why dfs和bfs， 时间复杂度，worst case.
+感觉这轮交流是很好的，小哥一直在引导，应该挂在第一题没有想出最优解吧？
+第二轮，看到只有一个面试官，就感觉第一轮应该是面挂了，这轮就是走过场的。烙印大哥，工作十年在bb， 然后蜜汁口音，完全听不懂，连懵带猜，不交流，不引导，我打代码他看手机，我主动交流他会说that is your decision.
+1. 给一个数字生成链表， 150 生成 1 -> 5 -> 0， 这大哥的口音根本听不懂，只说给一个数生成一个链表，然后又不给示例，我简直懵逼。弄清题意花了很久。
+2. Add two number || , 蠡口原题， 我用stack做的，但是他说可以，但是不允许用int carry进位，然后说这个函数里没有int, 但是明显感觉他不想交流，不想沟通，说你这样写也可以。
+3. Mutipy two list. 就是把第二个题生成的两个链表相乘。然后我想用string 相乘的解法，但是还是需要用stack或者reverse链表然后用int记录位置， 他说不能用。 然后我说那就两个循环把乘积相加， 他说对。
+然后就结束了。。。。
+
+等了一会就被escort out 了~~
+找工作之路真是艰难呀，自己太菜了~~希望能帮到其他找工作的小伙伴~~. che
