@@ -149,3 +149,5 @@ LZ：8需要4bit剩下的0-7只需要3个，这样28bit你看成吗，一个int�
 小哥走的时候也没说有没有下一轮，本以为两轮游到此结束，可以滚去机场了，可是小哥说等下我去问下hr来不来。。心想难不成第一轮的feedback还不错？
 第三轮就是标准的HR面，why bb most difficult challenge。
 第四轮来了个在bb 11年的senior manager，聊了下lz的硕士论文，抠了些细节等等。没有coding就问了一个普通的在 set of interval 中查找的问题，问了下如果query次数多但set不变如何优化，答cache。。。
+
+HR一开始介绍了一下onboarding process，才知道bb的training居然有3个月之长，然后就是why bb, what are you looking for in your next job, describe most passionate past project, 还有一个other than salary, what factors play a role in deciding where to work 想起来再补充
