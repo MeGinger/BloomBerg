@@ -176,3 +176,7 @@ HR一开始介绍了一下onboarding process，才知道bb的training居然有3�
 另外也问了了跳槽的motivation。 然后做题，刷题⽹网散霸⽓气，在纸上写思路路，描述过程，讨论了了 好⼏几种⽅方法。
 第⼆二轮是两⼈人⾯面，刷题⽹网⽽而留留就，从怎么建图，到拓拓扑遍历，⼀一次⼜又⼀一次打断我的思路路。
 坚决不不让我我⽤用 queue，⾮非得⼀一遍遍得更更新图，遍历图然后得到当前⼊入度为0的node，不不嫌烦?
+
+Flight plans
+⼀一个data structure可以加edge 最优化时间return所有a 和 b的 路路
+LRU
